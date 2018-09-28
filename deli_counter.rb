@@ -3,7 +3,7 @@
 def line(people_in_line)
   if people_in_line != []
    counter = 1 
-    people_in_lin.collect do |person|
+    people_in_line.collect do |person|
       "#{counter}. #{person}"
       counter += 1 
     end
