@@ -7,7 +7,7 @@ def line(people_in_line)
     numbered_list << "#{index + 1}. #{person}"
  
   end 
-   numbered_list.join(" ")
+   puts "The line is currently: " + numbered_list.join(" ")
 end
 
 
