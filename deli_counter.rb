@@ -13,3 +13,7 @@ def line(people_in_line)
   end 
 end
 
+def take_a_number(people_in_line, new_name)
+  
+end 
+
