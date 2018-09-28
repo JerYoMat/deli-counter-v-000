@@ -2,6 +2,8 @@
 
 
 def line(people_in_line)
+
+if people_in_line != []
   numbered_list = []
   people_in_line.each_with_index do |person, index|
     numbered_list << "#{index + 1}. #{person}"
@@ -10,5 +12,6 @@ def line(people_in_line)
    puts "The line is currently: " + numbered_list.join(" ")
 end
 
-
-test_array = ['tim', 'johnm', 'las']
+else 
+  puts "The line is currently empty."
+end 
