@@ -20,7 +20,7 @@ end
 
 def now_serving(people_in_line)
  if people_in_line.size > 1
-  puts "Now serving #{people_in_line.first}"
+  puts "Currently serving #{people_in_line.first}"
   people_in_line.unshift
  else 
    puts "There is nobody waiting to be served!"
