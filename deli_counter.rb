@@ -14,6 +14,6 @@ def line(people_in_line)
 end
 
 def take_a_number(people_in_line, new_name)
-  puts "#{people_in_line.size}. #{new_name}"
+  puts "#{people_in_line.size + 1}. #{new_name}"
 end 
 
