@@ -1,7 +1,7 @@
 # Write your code here.
 
 def line(array)
-  
-puts line unless line == [] 
+
+array == [] ? puts "The line is currently empty." : array 
 
 end
