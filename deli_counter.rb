@@ -18,3 +18,6 @@ def take_a_number(people_in_line, new_name)
   people_in_line << new_name
 end 
 
+def now_serving(people_in_line)
+
+end 
