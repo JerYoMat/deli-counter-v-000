@@ -2,7 +2,7 @@
 
 
 def line(people_in_line)
-
+if people_in_line.size == 0 
 
   numbered_list = []
   people_in_line.each_with_index do |person, index|
