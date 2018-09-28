@@ -2,6 +2,6 @@
 
 def line 
   
-
+line if line != nil 
 
 end
