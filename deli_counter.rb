@@ -1,6 +1,6 @@
 # Write your code here.
 
-def line 
+def line(array)
   
 puts line if line != nil 
 
