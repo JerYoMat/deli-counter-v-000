@@ -2,5 +2,5 @@
 
 def line 
   
-line != [] ? line : nil 
+line != [] ? line : puts "The line is currently empty." 
 end 
