@@ -2,6 +2,6 @@
 
 def line(array)
   
-puts line if line != nil 
+puts line unless line == [] 
 
 end
