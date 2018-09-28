@@ -25,3 +25,4 @@ def now_serving(people_in_line)
  else 
    puts "There is nobody waiting to be served!"
 end 
+end 
