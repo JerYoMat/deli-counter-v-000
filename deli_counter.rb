@@ -9,4 +9,4 @@ def line(people_in_line)
 end
 
 
-test_array = [tim, johnm, las]
+test_array = ['tim', 'johnm', 'las']
