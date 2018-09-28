@@ -2,5 +2,6 @@
 
 def line 
   
-line == [] ? puts "The line is currently empty." : line 
+
+
 end
