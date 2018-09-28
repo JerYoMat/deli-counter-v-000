@@ -7,3 +7,6 @@ def line(people_in_line)
   end 
 
 end
+
+
+test_array = [tim, johnm, las]
